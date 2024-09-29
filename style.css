@@ -26,9 +26,13 @@ html, body {
 
 ::-webkit-scrollbar-thumb{
     background: rgb(126, 94, 94);
-    border: 5px solid black;
+    border: 5px solid rgb(29, 23, 23);
     border-radius: 10px;
     padding: 10px;
+}
+
+h1 {
+    font-size: 32px;
 }
 
 label {
