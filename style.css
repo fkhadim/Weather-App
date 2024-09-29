@@ -136,3 +136,18 @@ form {
 .warning {
     color: red;
 }
+
+@media screen and (max-width:550px) {
+    .container{
+        width: 300px;
+        height: 700px;
+    }
+
+    .btn {
+        font-size: 12px;
+    }
+
+    #input {
+        width: 180px;
+    }
+}
