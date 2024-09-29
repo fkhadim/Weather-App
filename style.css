@@ -6,6 +6,11 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+html, body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
 ::-webkit-scrollbar{
     height: 20px;
 }
