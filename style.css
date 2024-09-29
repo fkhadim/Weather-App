@@ -134,7 +134,7 @@ h1 {
     padding-bottom: 10px;
 }
 
-form {
+.form {
     margin-bottom: 30px;
 }
 
@@ -149,8 +149,8 @@ form {
 @media screen and (max-width:550px) {
     .container{
         width: 400px;
-        min-height: 620px;
-        max-height: 670px;
+        height: auto;
+        padding-bottom: 20px;
     }
 
     .btn {
@@ -167,5 +167,8 @@ form {
     }
     .date {
         margin-bottom: 0;
+    }
+    form.form{
+        margin-bottom: 10px;
     }
 }

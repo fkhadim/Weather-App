@@ -106,12 +106,11 @@ btn.addEventListener('click', async (event) => {
             forecast.appendChild(containerDiv);
         });
         warning.style.display = 'none'
-        form.style.marginBottom = '30px'
+
     }
     catch(error){
         console.log(error)
         warning.style.display = 'block'
         warning.textContent = 'Error fetching Weather data'
-        form.style.marginBottom = '10px'
     }
 })
