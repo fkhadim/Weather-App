@@ -78,6 +78,7 @@ body {
     border-radius: 10px;
     color: black;
     font-size: 15px;
+    touch-action: manipulation;
 }
 
 .label {
