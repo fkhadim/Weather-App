@@ -149,7 +149,8 @@ form {
 @media screen and (max-width:550px) {
     .container{
         width: 400px;
-        height: 620px;
+        min-height: 620px;
+        max-height: 670px;
     }
 
     .btn {
